@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset=UTF-8>
+    <title>Formulario de registro - Mi web</title>
+	<link type="text/css" rel="stylesheet" href="estils.css">
+	<script src="funcionsjavascript.js"></script>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form>
+        <p>
+            <strong>Nombre:</strong> <input name="nombre" maxlenght="50">
+        </p>
+
+        <p>
+            <strong>Apellidos:</strong> <input name="apellidos" maxlenght="50">
+        </p>
+
+        <p>
+            <strong>Sexo:</strong>
+            <input type="radio" id="hombre" name="Sexo" value="hombre"> <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="Sexo" value="mujer"> <label for="mujer">Mujer</label>
+            <input type="radio" id="no binario" name="Sexo" value="no binario"> <label for="no binario">No binario</label>
+        </p>
+
+        <p>
+            <strong>Correo:</strong> <input name="correo" maxlenght="50">
+        </p>
+
+        <p>
+            <strong>Población:</strong>
+            <select>
+                <option>Alicante</option>
+                <option>Madrid</option>
+                <option>Sevilla</option>
+                <option>Valencia</option>
+            </select>
+        </p>
+
+        <p>
+            <strong>Descripción:</strong>
+            <textarea name="descripcion" id="descripcion" rows="5" cols="50"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="info" name="info" checked="checked"> <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="condiciones" name="condiciones"> <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
