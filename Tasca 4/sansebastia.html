@@ -2,508 +2,382 @@
 <html lang="ca">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Votació SMIX - Surtida final de curs</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
+  <meta charset="utf-8" />
+  <title>Votació SMIX - Surtida final de curs</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Fonts de google web -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <!-- Stylesheet de Font de icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link
-      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-      rel="stylesheet"
-    />
+  <!-- Stylesheet de llibreries -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Stylesheet personalitzat -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Stylesheet plantilla -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
 
-  <body>
-    <!-- Spinner Start -->
-    <div
-      id="spinner"
-      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div
-        class="spinner-border text-primary"
-        style="width: 3rem; height: 3rem"
-        role="status"
-      >
-        <span class="sr-only">Loading...</span>
-      </div>
+<body>
+  <!-- Pre-loader Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+      <span class="sr-only">Loading...</span>
     </div>
-    <!-- Spinner End -->
+  </div>
+  <!-- Pre-loader End -->
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-      <div class="row gx-0">
-        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-          <div class="d-inline-flex align-items-center" style="height: 45px">
-            <small class="me-3 text-light"
-              ><i class="fa fa-map-marker-alt me-2"></i>Comarques Catalanes, 103. 43740 Móra d'Ebre</small
-            >
-            <small class="me-3 text-light"
-              ><i class="fa fa-phone-alt me-2"></i>+34 624 280 903</small
-            >
-            <small class="text-light"
-              ><i class="fa fa-envelope-open me-2"></i>aamkeched@giesjulioantonio.cat</small
-            >
-          </div>
+  <!-- Header Start -->
+  <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="row gx-0">
+      <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+        <div class="d-inline-flex align-items-center" style="height: 45px">
+          <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Comarques Catalanes, 103. 43740 Móra
+            d'Ebre</small>
+          <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+34 624 280 903</small>
+          <small class="text-light"><i class="fa fa-envelope-open me-2"></i>aamkeched@giesjulioantonio.cat</small>
         </div>
-        <div class="col-lg-4 text-center text-lg-end">
-          <div class="d-inline-flex align-items-center" style="height: 45px">
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href="https://twitter.com/"
-              ><i class="fab fa-twitter fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href="https://facebook.com/"
-              ><i class="fab fa-facebook-f fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href="https://linkedin.com/"
-              ><i class="fab fa-linkedin-in fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-              href="https://instagram.com/"
-              ><i class="fab fa-instagram fw-normal"></i
-            ></a>
-            <a
-              class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-              href="https://youtube.com/"
-              ><i class="fab fa-youtube fw-normal"></i
-            ></a>
-          </div>
+      </div>
+      <div class="col-lg-4 text-center text-lg-end">
+        <div class="d-inline-flex align-items-center" style="height: 45px">
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/"><i
+              class="fab fa-twitter fw-normal"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://facebook.com/"><i
+              class="fab fa-facebook-f fw-normal"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://linkedin.com/"><i
+              class="fab fa-linkedin-in fw-normal"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://instagram.com/"><i
+              class="fab fa-instagram fw-normal"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://youtube.com/"><i
+              class="fab fa-youtube fw-normal"></i></a>
         </div>
       </div>
     </div>
-    <!-- Topbar End -->
+  </div>
+  <!-- Header End -->
 
 
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav
-          class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
-        >
-          <a href="" class="navbar-brand p-0">
-            <h1 class="text-primary m-0">
-              <i class="fa fa-map-marker-alt me-3"></i>Votació SMIX
-            </h1>
-            <!-- <img src="img/logo.png" alt="Logo"> -->
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
-            <span class="fa fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-              <a href="index.html" class="nav-item nav-link active">Inici</a>
-              <a href="sansebastia.html" class="nav-item nav-link">Sant Sebastià</a>
-              <a href="granada.html" class="nav-item nav-link">Granada</a>
-              <a href="sevilla.html" class="nav-item nav-link">Sevilla</a>
-              <a href="votacio.html" class="nav-item nav-link">Votació</a>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-          </div>
-        </nav>
-
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header2">
-            <div class="container py-5">
-                <div class="row justify-content-center py-5">
-                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white animated slideInDown">Sant Sebastià</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#a sobre">A sobre</a></li>
-                                <li class="breadcrumb-item"><a href="#activitats">Activitats</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page"><a href="#cost">Cost</a></li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+  <!-- Menu i Foto Hero Start -->
+  <div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+      <a href="index.html" class="navbar-brand p-0">
+        <h1 class="text-primary m-0">
+          <i class="fa fa-map-marker-alt me-3"></i>Votació SMIX
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0">
+          <a href="index.html" class="nav-item nav-link">Inici</a>
+          <a href="sansebastia.html" class="nav-item nav-link active">Sant Sebastià</a>
+          <a href="granada.html" class="nav-item nav-link">Granada</a>
+          <a href="sevilla.html" class="nav-item nav-link">Sevilla</a>
+          <a href="votacio.html" class="nav-item nav-link">Votació</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
-    </div>
-    <!-- Navbar & Hero End -->
+      </div>
+    </nav>
 
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <video controls muted="false" class="img-fluid position-absolute w-100 h-100" style="-o-object-fit: scale-down;">
-                            <source src="vid/San-sebastian-vid.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 id="a sobre" class="section-title bg-white text-start text-primary pe-3">A sobre</h6>
-                    <h1 class="mb-4">Benvinguts a <span class="text-primary">Sant Sebastià</span></h1>
-                    <p class="mb-4">Sant Sebastià és coneguda per les seves agermanaments platges, la seva arquitectura elegant i la seva reputada gastronomia. Els estudiants poden gaudir de la platja de la Concha, explorar el nucli antic ple de bars de pintxos (tapes basques) i descobrir la rica tradició culinària de la regió.</p>
-                    <p class="mb-4">Sant Sebastià, joya de la Costa Vasca, es un destí que captura l'essència de la cultura basca amb la seva bellesa costanera i l'encant del seu Barri Antic. Amb la platja de la Conxa com a punt de partida, aquesta ciutat ofereix un equilibri perfecte entre natura i història. El seu Mont Urgull i les estretes ruelles de la Part Vella transporten els visitants a una altra època. Les activitats culinàries, com els sopars de pintxos i els espectacles de flamenc, omplen l'ambient de la calidez del País Basc. Sant Sebastià no només proporciona una experiència visualment impressionant, sinó que també desperta els sentits amb les seves delicioses ofertes gastronòmiques i l'esperit acollidor dels seus habitants.</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Platges relaxants</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Monuments Històrics</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Diversitat gastronomica</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Cultura exotica</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="votacio.html">Vota Ara!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-    <!-- Team Start -->
-<!--     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
-                <h1 class="mb-5">Meet Our Guide</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Team End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container">
-        <div class="text-center">
-          <h6 id="activitats" class="section-title bg-white text-center text-primary px-3">
-            Activitats
-          </h6>
-          <h1 class="mb-5">Activitats programades</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel position-relative">
-          <div class="testimonial-item bg-white text-center border p-4">
-            <img
-              class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/san-sebastian-3.jpg"
-              style="width: 80px; height: 80px"
-            />
-            <h5 class="mb-0">Dia 1</h5>
-            <p>Arribada i Introducció a Sant Sebastià</p>
-            <p class="mb-0">
-                Arriba i gaudeix d'un relaxant passeig per la platja de la Conxa i el pintoresc Barri Antic. La jornada continua amb una activitat de presentació per conèixer millor els participants.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white text-center border p-4">
-            <img
-              class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/san-sebastian-4.jpg"
-              style="width: 80px; height: 80px"
-            />
-            <h5 class="mb-0">Dia 2</h5>
-            <p>Exploració Cultural a la Part Vella</p>
-            <p class="mt-2 mb-0">
-                Inicia el dia amb una visita a la imponent Catedral del Buen Pastor i un passeig pel Barri de la Part Vella, amb les seves estretes carreretes empedrades. La nit culmina amb un autèntic sopar en una sidreria tradicional.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white text-center border p-4">
-            <img
-              class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/san-sebastian-5.jpg"
-              style="width: 80px; height: 80px"
-            />
-            <h5 class="mb-0">Dia 3</h5>
-            <p>Excursió a la Natura i Sopar de Pintxos</p>
-            <p class="mt-2 mb-0">
-                Gaudeix d'una jornada a la natura amb una excursió al Mont Urgull i una visita al Barri de Gros. A la nit, els participants tenen l'opció de gaudir d'un sopar de pintxos o d'un espectacle de flamenc.
-            </p>
-          </div>
-          <div class="testimonial-item bg-white text-center border p-4">
-            <img
-              class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/san-sebastian-6.jpg"
-              style="width: 80px; height: 80px"
-            />
-            <h5 class="mb-0">Dia 4</h5>
-            <p>Dia Relaxant i Cloenda</p>
-            <p class="mt-2 mb-0">
-                El darrer dia ofereix una oportunitat de relaxar-se a la platja de Ondarreta. La jornada conclou amb un sopar d'comiat i una activitat de cloenda per compartir experiències i records
-            </p>
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header2">
+      <div class="container py-5">
+        <div class="row justify-content-center py-5">
+          <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+            <h1 class="display-3 text-white animated slideInDown">Sant Sebastià</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a href="#sobre">sobre</a></li>
+                <li class="breadcrumb-item"><a href="#vota">Activitats</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page"><a href="#swipe">Cost</a></li>
+              </ol>
+            </nav>
           </div>
         </div>
       </div>
     </div>
-    <!-- Testimonial End -->
+  </div>
+  <!-- Menu i Foto Hero End -->
 
-<!-- Process Start -->
-<div class="container-xxl py-5">
+
+  <!-- Sobre Start -->
+  <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 id="cost" class="section-title bg-white text-center text-primary px-3">Cost</h6>
-            <h1 class="mb-5">Allotjament + Transport</h1>
-        </div>
-        <div class="row gy-5 gx-4 justify-content-center">
-            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                        <i class="fa fa-globe fa-3x text-white"></i>
-                    </div>
-                    <a target="_blank" href="https://sp.booking.com/hotel/es/pension-artea.es.html?aid=1997859&label=device_id%3Dr_jYVlGqRm1VemZ33k4F4H&sid=8d7d8d214d15e519e46d516074abbd1a&all_sr_blocks=54242603_363620095_0_0_0;checkin=2024-04-01;checkout=2024-04-04;dest_id=-401497;dest_type=city;dist=0;group_adults=1;group_children=0;hapos=1;highlighted_blocks=54242603_363620095_0_0_0;hpos=1;matching_block_id=54242603_363620095_0_0_0;no_rooms=1;req_adults=1;req_children=0;room1=A;sb_price_type=total;sr_order=popularity;sr_pri_blocks=54242603_363620095_0_0_0__16500;srepoch=1702411597;srpvid=8a408d6c73400046;type=total;ucfs=1&#hotelTmpl"><h5 class="mt-4">Allotjament 165€
-                    </h5></a>
-                    <hr class="w-25 mx-auto bg-primary mb-1">
-                    <hr class="w-50 mx-auto bg-primary mt-0">
-                    <p class="mb-0">Aquest establiment ple d'encant es troba en una zona tranquil·la del centre, a només 50 metres de la platja i del passeig marítim de la Concha, així com a 15 minuts a peu del puig Urgull. L'estació de tren de Sant Sebastià i la d'Amara se situen a menys de 10 minuts a peu.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                        <i class="fa fa-dollar-sign fa-3x text-white"></i>
-                    </div>
-                    <h5 class="mt-4">Preu Total 248€</h5>
-                    <hr class="w-25 mx-auto bg-primary mb-1">
-                    <hr class="w-50 mx-auto bg-primary mt-0">
-                    <p class="mb-0">Aquest Preu pot sofrir canvis al llarg del temps</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                        <i class="fa fa-plane fa-3x text-white"></i>
-                    </div>
-                    <a target="_blank" href="https://www.busbud.com/es/bus-schedules-results/sp3e3n/ezww7h/?outbound_date=2024-04-01&return_date=2024-04-04&adults=1&origin_geo_entity_id=375dd587-9001-acbd-84a4-683dedebf74b&destination_geo_entity_id=375dd587-9001-acbd-84a4-683dedaf1744&origin_place_type=city&destination_place_type=city&leg_card_id=16c680b1-ae30-43d0-8dae-61e7a21f119e65202142024-04-01T11%253A05%253A00%252B02%253A002024-04-02T02%253A35%253A00%252B02%253A00&view=ticket_options"><h5 class="mt-4">Transport 83€</h5></a>
-                    <hr class="w-25 mx-auto bg-primary mb-1">
-                    <hr class="w-50 mx-auto bg-primary mt-0">
-                    <p class="mb-0">Aquest autobus parteix de barcelona en direcció a Toulouse, França. On farem un transbord que ens portara al nostre destí final Donostia, Sant Sebastià. Aquest trajecte durarà 15 hores</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Process Start -->
-
-        <!-- Footer Start -->
-        <div
-        class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
-        data-wow-delay="0.1s"
-      >
-        <div class="container py-5">
-          <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-              <h4 class="text-white mb-3">Contact</h4>
-              <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i>Comarq. Catalanes, 103. 43740 Móra d'Ebre
-              </p>
-              <p class="mb-2">
-                <i class="fa fa-phone-alt me-3"></i>+34 624 280 903
-              </p>
-              <p class="mb-2">
-                <i class="fa fa-envelope me-3"></i>aamkeched@iesjulioantonio.cat
-              <div class="d-flex pt-2">
-                <a class="btn btn-outline-light btn-social" href="https://twitter.com/"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href="https://facebook.com/"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href="https://youtube.com/"
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href="https://linkedin.com/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6"></div>
-            <div class="col-lg-3 col-md-6"></div>
-            <div class="col-lg-3 col-md-6">
-              <h4 class="text-white mb-3">Gallery</h4>
-              <div class="row g-2 pt-2">
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/san-sebastian-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/sevilla-3.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/granada-1.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/granada-2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/san-sebastian-2.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-4">
-                  <img
-                    class="img-fluid bg-light p-1"
-                    src="img/sevilla-2.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+          <div class="position-relative h-100">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@gogoespana/video/7208765277889105160"
+              data-video-id="7208765277889105160" style="max-width: 605px;min-width: 325px;">
+              <section> <a target="_blank" title="@gogoespana"
+                  href="https://www.tiktok.com/@gogoespana?refer=embed">@gogoespana</a> San Sebastián is so beautiful.
+                😍 <a title="gogoespana" target="_blank"
+                  href="https://www.tiktok.com/tag/gogoespana?refer=embed">#gogoespana</a> <a title="studyinspain"
+                  target="_blank" href="https://www.tiktok.com/tag/studyinspain?refer=embed">#studyinspain</a> <a
+                  title="sansebastian" target="_blank"
+                  href="https://www.tiktok.com/tag/sansebastian?refer=embed">#sansebastian</a> <a title="spaintrip"
+                  target="_blank" href="https://www.tiktok.com/tag/spaintrip?refer=embed">#spaintrip</a> <a
+                  title="spain" target="_blank" href="https://www.tiktok.com/tag/spain?refer=embed">#spain</a> <a
+                  target="_blank" title="♬ WHY ARE PPL USING THIS SOUND - John Phillips"
+                  href="https://www.tiktok.com/music/WHY-ARE-PPL-USING-THIS-SOUND-7167961066704505602?refer=embed">♬ WHY
+                  ARE PPL USING THIS SOUND - John Phillips</a> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
           </div>
         </div>
-        <div class="container">
-          <div class="copyright">
-            <div class="row">
-              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#">Votació SMIX</a>, Tots Dret Conservat.
-  
-                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                Designed By
-                <a class="border-bottom" href="https://htmlcodex.com"
-                  >HTML Codex</a
-                >
-              </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+          <h6 id="sobre" class="section-title bg-white text-start text-primary pe-3">sobre</h6>
+          <h1 class="mb-4">Benvinguts a <span class="text-primary">Sant Sebastià</span></h1>
+          <p class="mb-4">Sant Sebastià és coneguda per les seves agermanaments platges, la seva arquitectura elegant i
+            la seva reputada gastronomia. Els estudiants poden gaudir de la platja de la Concha, explorar el nucli antic
+            ple de bars de pintxos (tapes basques) i descobrir la rica tradició culinària de la regió.</p>
+          <p class="mb-4">Sant Sebastià, joya de la Costa Vasca, es un destí que captura l'essència de la cultura basca
+            amb la seva bellesa costanera i l'encant del seu Barri Antic. Amb la platja de la Conxa com a punt de
+            partida, aquesta ciutat ofereix un equilibri perfecte entre natura i història. El seu Mont Urgull i les
+            estretes ruelles de la Part Vella transporten els visitants a una altra època. Les activitats culinàries,
+            com els sopars de pintxos i els espectacles de flamenc, omplen l'ambient de la calidez del País Basc. Sant
+            Sebastià no només proporciona una experiència visualment impressionant, sinó que també desperta els sentits
+            amb les seves delicioses ofertes gastronòmiques i l'esperit acollidor dels seus habitants.</p>
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Platges Paradisíaques</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Monuments Històrics</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Cultura Gastronòmica</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Riquesa Històrica</p>
+            </div>
+          </div>
+          <a id="vota" class="btn btn-primary py-3 px-5 mt-2" href="votacio.html">Vota Ara!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sobre End -->
+
+  <!-- Activitats Start -->
+  <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+      <div class="text-center">
+        <h6 id="activitats" class="section-title bg-white text-center text-primary px-3">
+          Activitats
+        </h6>
+        <h1 class="mb-5">Activitats programades</h1>
+      </div>
+      <div id="swipe" class="owl-carousel testimonial-carousel position-relative">
+        <div class="testimonial-item bg-white text-center border p-4">
+          <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/san-sebastian-3.jpg"
+            style="width: 80px; height: 80px" />
+          <h5 class="mb-0">Dia 1</h5>
+          <p>Arribada i Introducció a Sant Sebastià</p>
+          <p class="mb-0">
+            Arriba i gaudeix d'un relaxant passeig per la platja de la Conxa i el pintoresc Barri Antic. La jornada
+            continua amb una activitat de presentació per conèixer millor els participants.
+          </p>
+        </div>
+        <div class="testimonial-item bg-white text-center border p-4">
+          <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/san-sebastian-4.jpg"
+            style="width: 80px; height: 80px" />
+          <h5 class="mb-0">Dia 2</h5>
+          <p>Exploració Cultural a la Part Vella</p>
+          <p class="mt-2 mb-0">
+            Inicia el dia amb una visita a la imponent Catedral del Buen Pastor i un passeig pel Barri de la Part Vella,
+            amb les seves estretes carreretes empedrades. La nit culmina amb un autèntic sopar en una sidreria
+            tradicional.
+          </p>
+        </div>
+        <div class="testimonial-item bg-white text-center border p-4">
+          <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/san-sebastian-5.jpg"
+            style="width: 80px; height: 80px" />
+          <h5 class="mb-0">Dia 3</h5>
+          <p>Excursió a la Natura i Sopar de Pintxos</p>
+          <p class="mt-2 mb-0">
+            Gaudeix d'una jornada a la natura amb una excursió al Mont Urgull i una visita al Barri de Gros. A la nit,
+            els participants tenen l'opció de gaudir d'un sopar de pintxos o d'un espectacle de flamenc.
+          </p>
+        </div>
+        <div class="testimonial-item bg-white text-center border p-4">
+          <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/san-sebastian-6.jpg"
+            style="width: 80px; height: 80px" />
+          <h5 class="mb-0">Dia 4</h5>
+          <p>Dia Relaxant i Cloenda</p>
+          <p class="mt-2 mb-0">
+            El darrer dia ofereix una oportunitat de relaxar-se a la platja de Ondarreta. La jornada conclou amb un
+            sopar d'comiat i una activitat de cloenda per compartir experiències i records
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Activitats End -->
+
+  <!-- Cost Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+        <h6 id="cost" class="section-title bg-white text-center text-primary px-3">Cost</h6>
+        <h1 class="mb-5">Allotjament + Transport</h1>
+      </div>
+      <div class="row gy-5 gx-4 justify-content-center">
+        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="position-relative border border-primary pt-5 pb-4 px-4">
+            <div
+              class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+              style="width: 100px; height: 100px;">
+              <i class="fa fa-globe fa-3x text-white"></i>
+            </div>
+            <a target="_blank"
+              href="https://sp.booking.com/hotel/es/pension-artea.es.html?aid=1997859&label=device_id%3Dr_jYVlGqRm1VemZ33k4F4H&sid=8d7d8d214d15e519e46d516074abbd1a&all_sr_blocks=54242603_363620095_0_0_0;checkin=2024-04-01;checkout=2024-04-04;dest_id=-401497;dest_type=city;dist=0;group_adults=1;group_children=0;hapos=1;highlighted_blocks=54242603_363620095_0_0_0;hpos=1;matching_block_id=54242603_363620095_0_0_0;no_rooms=1;req_adults=1;req_children=0;room1=A;sb_price_type=total;sr_order=popularity;sr_pri_blocks=54242603_363620095_0_0_0__16500;srepoch=1702411597;srpvid=8a408d6c73400046;type=total;ucfs=1&#hotelTmpl">
+              <h5 class="mt-4 btn-link">Allotjament 165€
+              </h5>
+            </a>
+            <hr class="w-25 mx-auto bg-primary mb-1">
+            <hr class="w-50 mx-auto bg-primary mt-0">
+            <p class="mb-0">Aquest establiment ple d'encant es troba en una zona tranquil·la del centre, a només 50
+              metres de la platja i del passeig marítim de la Concha, així com a 15 minuts a peu del puig Urgull.
+              L'estació de tren de Sant Sebastià i la d'Amara se situen a menys de 10 minuts a peu.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="position-relative border border-primary pt-5 pb-4 px-4">
+            <div
+              class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+              style="width: 100px; height: 100px;">
+              <i class="fa fa-dollar-sign fa-3x text-white"></i>
+            </div>
+            <h5 class="mt-4">Preu Total 248€</h5>
+            <hr class="w-25 mx-auto bg-primary mb-1">
+            <hr class="w-50 mx-auto bg-primary mt-0">
+            <p class="mb-0">Aquest Preu pot sofrir canvis al llarg del temps</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="position-relative border border-primary pt-5 pb-4 px-4">
+            <div
+              class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+              style="width: 100px; height: 100px;">
+              <i class="fa fa-plane fa-3x text-white"></i>
+            </div>
+            <a target="_blank"
+              href="https://www.busbud.com/es/bus-schedules-results/sp3e3n/ezww7h/?outbound_date=2024-04-01&return_date=2024-04-04&adults=1&origin_geo_entity_id=375dd587-9001-acbd-84a4-683dedebf74b&destination_geo_entity_id=375dd587-9001-acbd-84a4-683dedaf1744&origin_place_type=city&destination_place_type=city&leg_card_id=16c680b1-ae30-43d0-8dae-61e7a21f119e65202142024-04-01T11%253A05%253A00%252B02%253A002024-04-02T02%253A35%253A00%252B02%253A00&view=ticket_options">
+              <h5 class="mt-4 btn-link">Transport 83€</h5>
+            </a>
+            <hr class="w-25 mx-auto bg-primary mb-1">
+            <hr class="w-50 mx-auto bg-primary mt-0">
+            <p class="mb-0">Aquest autobus parteix de barcelona en direcció a Toulouse, França. On farem un transbord
+              que ens portara al nostre destí final Donostia, Sant Sebastià. Aquest trajecte durarà 15 hores. Alguns de
+              les funcionalitats que té aquest bus són un lavabo, aire condicionat, endolls, wifi...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cost End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Contact</h4>
+          <p class="mb-2">
+            <i class="fa fa-map-marker-alt me-3"></i>Comarq. Catalanes, 103. 43740 Móra d'Ebre
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-phone-alt me-3"></i>+34 624 280 903
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-envelope me-3"></i>aamkeched@iesjulioantonio.cat
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://facebook.com/"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://linkedin.com/"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6"></div>
+        <div class="col-lg-3 col-md-6"></div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Gallery</h4>
+          <div class="row g-2 pt-2">
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/san-sebastian-1.jpg" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/sevilla-3.jpg" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/granada-1.jpg" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/granada-2.jpg" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/san-sebastian-2.jpg" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/sevilla-2.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <!-- Footer End -->
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Votació SMIX</a>, Tots Dret Conservat.
+
+            <!--/*** Credits de plantilla ***/-->
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+  <!-- Llibreries de JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+  <!-- Plantilla Javascript -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>

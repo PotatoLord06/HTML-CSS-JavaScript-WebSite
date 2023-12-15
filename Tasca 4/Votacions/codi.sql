@@ -1,0 +1,9 @@
+CREATE DATABASE votacions;
+USE votacions;
+
+CREATE TABLE voting (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Nom VARCHAR(255) NOT NULL,
+    Correu VARCHAR(255) NOT NULL,
+    Desti VARCHAR(255) NOT NULL
+);
