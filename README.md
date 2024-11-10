@@ -1,3 +1,4 @@
+# Class Trip Voting WebSite
 In this repository, I've saved my **HTML-CSS-JavaScript Website**.
 
 It contains a folder with various **CSS objects** I found online, which may come in handy in the future. There’s also a folder for the **training** I completed to familiarize myself with **HTML and CSS**. Lastly, the **Website** folder includes all its components.
